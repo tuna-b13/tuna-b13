@@ -94,7 +94,7 @@ Real-time cognitive state classification from eye-tracking signals — LSTM vs T
 <td width="50%">
 
 ### 🤖 AOV — Autonomous Rover
-Autonomous ground vehicle — **MUBAK 2024 award winner**.
+Autonomous ground vehicle project.
 <!-- TODO: 1–2 line description of approach/sensors -->
 
 **Stack:** `ROS2` `LIDAR` `Sensor Fusion`
