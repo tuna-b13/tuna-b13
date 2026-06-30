@@ -29,51 +29,52 @@ tuna = {
 
 **Languages**
 <p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-161b22?style=for-the-badge&logo=python&logoColor=3776AB" />
+<img src="https://img.shields.io/badge/Java-161b22?style=for-the-badge&logo=openjdk&logoColor=ED8B00" />
+<img src="https://img.shields.io/badge/JavaScript-161b22?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+<img src="https://img.shields.io/badge/C++-161b22?style=for-the-badge&logo=cplusplus&logoColor=659AD2" />
+<img src="https://img.shields.io/badge/MATLAB-161b22?style=for-the-badge&logo=mathworks&logoColor=3399CC" />
 </p>
 
 **Frameworks & Backend**
 <p>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-161b22?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" />
+<img src="https://img.shields.io/badge/TensorFlow-161b22?style=for-the-badge&logo=tensorflow&logoColor=FF6F00" />
+<img src="https://img.shields.io/badge/FastAPI-161b22?style=for-the-badge&logo=fastapi&logoColor=009688" />
+<img src="https://img.shields.io/badge/Spring%20Boot-161b22?style=for-the-badge&logo=springboot&logoColor=6DB33F" />
 </p>
 
 **AI / LLM Ecosystem**
 <p>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-<img src="https://img.shields.io/badge/RAG-4B0082?style=for-the-badge" />
+<img src="https://img.shields.io/badge/LangChain-161b22?style=for-the-badge&logoColor=1C3C3C" />
+<img src="https://img.shields.io/badge/Hugging%20Face-161b22?style=for-the-badge&logo=huggingface&logoColor=FFD21E" />
+<img src="https://img.shields.io/badge/scikit--learn-161b22?style=for-the-badge&logo=scikitlearn&logoColor=F7931E" />
+<img src="https://img.shields.io/badge/OpenCV-161b22?style=for-the-badge&logo=opencv&logoColor=7AA6E8" />
+<img src="https://img.shields.io/badge/RAG-161b22?style=for-the-badge&logoColor=BB9AF7" />
 </p>
 
 **Data**
 <p>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-161b22?style=for-the-badge&logo=numpy&logoColor=4DABCF" />
+<img src="https://img.shields.io/badge/Pandas-161b22?style=for-the-badge&logo=pandas&logoColor=E70488" />
+<img src="https://img.shields.io/badge/PostgreSQL-161b22?style=for-the-badge&logo=postgresql&logoColor=4169E1" />
 </p>
 
 **Infrastructure & Tools**
 <p>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-<img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-161b22?style=for-the-badge&logo=git&logoColor=F05032" />
+<img src="https://img.shields.io/badge/Docker-161b22?style=for-the-badge&logo=docker&logoColor=2496ED" />
+<img src="https://img.shields.io/badge/Linux-161b22?style=for-the-badge&logo=linux&logoColor=FCC624" />
+<img src="https://img.shields.io/badge/LaTeX-161b22?style=for-the-badge&logo=latex&logoColor=4DA6A6" />
 </p>
 
 **Robotics & Simulation**
 <p>
-<img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white" />
-<img src="https://img.shields.io/badge/Gazebo-FF7F00?style=for-the-badge&logo=gazebo&logoColor=white" />
-<img src="https://img.shields.io/badge/Siemens%20NX-009999?style=for-the-badge" />
+<img src="https://img.shields.io/badge/ROS2-161b22?style=for-the-badge&logo=ros&logoColor=4FC3F7" />
+<img src="https://img.shields.io/badge/Gazebo-161b22?style=for-the-badge&logo=gazebo&logoColor=FF7F00" />
+<img src="https://img.shields.io/badge/Siemens%20NX-161b22?style=for-the-badge&logoColor=33CCCC" />
 </p>
+
 
 
 ---
