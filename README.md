@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/tuna-b13/tuna-b13/main/terminal-banner.svg" width="760" />
+  <img src="https://cdn.jsdelivr.net/gh/tuna-b13/tuna-b13@main/banner.svg" width="760" />
 </p>
 
 <p align="center">
@@ -128,9 +128,9 @@ Neural network built from scratch — lunar lander control + Rossmann sales pred
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tuna-b13/tuna-b13/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tuna-b13/tuna-b13/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/tuna-b13/tuna-b13/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/tuna-b13/tuna-b13@output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/tuna-b13/tuna-b13@output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://cdn.jsdelivr.net/gh/tuna-b13/tuna-b13@output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
 
@@ -149,3 +149,5 @@ Neural network built from scratch — lunar lander control + Rossmann sales pred
   <a href="https://www.linkedin.com/in/tuna-bozbay-b00b86238/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/tuna-b13"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:F59E0B,50:DB2777,100:6D28D9&animation=fadeIn" width="100%" />
