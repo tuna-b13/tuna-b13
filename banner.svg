@@ -16,18 +16,18 @@
       <rect width="4" height="2" fill="#000000" fill-opacity="0.22"/>
     </pattern>
     <clipPath id="clipP0">
-      <rect x="313" y="118" width="0" height="22">
-        <animate attributeName="width" values="0;0;134;134;0;0" keyTimes="0;0;0.1;0.26667;0.31667;1" dur="12s" repeatCount="indefinite"/>
+      <rect x="293" y="118" width="0" height="22">
+        <animate attributeName="width" values="0;0;175;175;0;0" keyTimes="0;0;0.1;0.26667;0.31667;1" dur="12s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
     <clipPath id="clipP1">
-      <rect x="267" y="118" width="0" height="22">
-        <animate attributeName="width" values="0;0;226;226;0;0" keyTimes="0;0.33333;0.43333;0.6;0.65;1" dur="12s" repeatCount="indefinite"/>
+      <rect x="232" y="118" width="0" height="22">
+        <animate attributeName="width" values="0;0;296;296;0;0" keyTimes="0;0.33333;0.43333;0.6;0.65;1" dur="12s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
     <clipPath id="clipP2">
-      <rect x="275" y="118" width="0" height="22">
-        <animate attributeName="width" values="0;0;210;210;0;0" keyTimes="0;0.66667;0.76667;0.93333;0.98333;1" dur="12s" repeatCount="indefinite"/>
+      <rect x="243" y="118" width="0" height="22">
+        <animate attributeName="width" values="0;0;274;274;0;0" keyTimes="0;0.66667;0.76667;0.93333;0.98333;1" dur="12s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
   </defs>
@@ -221,16 +221,16 @@
 
     <g font-size="14" letter-spacing="1.2" fill="#22cc66">
       <text x="240" y="134" fill="#3a6b4d">&#8250;</text>
-      <text x="313" y="134" clip-path="url(#clipP0)">AI/ML ENGINEER</text>
-      <text x="267" y="134" clip-path="url(#clipP1)">COMPUTER VISION &amp; ROBOTICS</text>
-      <text x="275" y="134" clip-path="url(#clipP2)">MSC AI @ ESSEX 2025-2026</text>
+      <text x="293" y="134" clip-path="url(#clipP0)">AI/ML ENGINEER</text>
+      <text x="232" y="134" clip-path="url(#clipP1)">COMPUTER VISION &amp; ROBOTICS</text>
+      <text x="243" y="134" clip-path="url(#clipP2)">MSC AI @ ESSEX 2025-2026</text>
     </g>
 
     <rect y="119" width="7" height="16" fill="#33ff77">
       <animate attributeName="x" dur="12s" repeatCount="indefinite"
-        values="313;313;447;447;313;313;
-                267;267;493;493;267;267;
-                275;275;485;485;275;275"
+        values="293;293;468;468;293;293;
+                232;232;528;528;232;232;
+                243;243;517;517;243;243"
         keyTimes="0;0;0.1;0.26667;0.31667;0.33333;
                   0.33333;0.43333;0.6;0.65;0.66667;0.66667;
                   0.66667;0.76667;0.93333;0.98333;0.98333;1"/>
