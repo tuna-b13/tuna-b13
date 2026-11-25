@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MSc%20AI-University%20of%20Essex-1E90FF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MSc%20AI%20(Distinction)-University%20of%20Essex-1E90FF?style=for-the-badge" />
 </p>
 
 ---
@@ -12,13 +12,12 @@
 
 ```python
 tuna = {
-    "role":        "MSc Artificial Intelligence Student",
+    "role":        "AI / ML Engineer · MSc Artificial Intelligence (Distinction)",
     "university":  "University of Essex, UK",
     "background":  "BSc Mechatronic Engineering — Atılım University",
-    "focus":       ["Computer Vision", "Time-Series Deep Learning", "Robotics"],
-    "currently":   "Finishing MSc dissertation — Real-Time Cognitive State "
-                   "Inference from Eye Tracking (LSTM vs Transformer)",
-    "location":    "Colchester, UK 🇬🇧",
+    "focus":       ["Real-Time ML", "Agentic AI", "Data Pipelines", "Robotics"],
+    "currently":   "Graduated with Distinction — looking for graduate AI/ML roles",
+    "location":    "London, UK 🇬🇧",
     "open_to":     ["AI/ML Engineering", "Computer Vision", "Agentic AI", "Robotics"]
 }
 ```
@@ -86,16 +85,15 @@ tuna = {
 <td width="50%">
 
 ### 🧠 MSc Dissertation
-Real-time cognitive state classification from eye-tracking signals — LSTM vs Transformer, on merged COLET + eSEE-d v2 datasets (4 cognitive states).
+Real-time cognitive workload inference from eye-tracking signals. Fused COLET + eSEE-d (620 recordings, 95 participants); stacking ensemble reached 0.687 macro-F1 subject-independently, and runs live on a Tobii Pro Nano at a 263 ms median cycle.
 
-**Stack:** `PyTorch` `Python` `Google Colab`
+**Stack:** `Python` `scikit-learn` `HPC/SLURM` `Tobii`
 
 </td>
 <td width="50%">
 
 ### 🤖 AOV — Autonomous Rover
-Autonomous ground vehicle project.
-<!-- TODO: 1–2 line description of approach/sensors -->
+ROS2 autonomous rover using LIDAR and multi-sensor fusion for real-time obstacle avoidance outdoors.
 
 **Stack:** `ROS2` `LIDAR` `Sensor Fusion`
 
@@ -125,17 +123,19 @@ Neural network built from scratch — lunar lander control + Rossmann sales pred
 <td width="50%">
 
 ### ♻️ Smart Trash Sorting System
-<!-- TODO: 1–2 line description -->
+Computer vision waste-sorting prototype with object detection and proximity sensors — MUBAK 2024 award.
 
 **Stack:** `Computer Vision` `OpenCV`
 
 </td>
 <td width="50%">
 
-### 🎭📊 Emotion Recognition / Agentic DS / Stock Prediction
-<!-- TODO: 1–2 line description for each -->
+### 🎭📊 Emotion Recognition · Agentic DS · Stock Prediction
+**Emotion:** six deep learning architectures, audio–visual fusion; my ResNet18–LSTM hit 77.6% on RAVDESS. [Repo →](https://github.com/tuna-b13/emotion-recognition-resnet-lstm)<br>
+**Agentic Data Scientist:** autonomous plan–act–reflect ML agent, 76 tests with CI. [Repo →](https://github.com/tuna-b13/agentic-data-scientist)<br>
+**Stock Prediction:** four ML models on five stocks with strict temporal leakage controls.
 
-**Stack:** `PyTorch` `LangChain`
+**Stack:** `PyTorch` `scikit-learn` `pytest`
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Neural network built from scratch — lunar lander control + Rossmann sales pred
 
 | Degree | Institution | Year |
 |---|---|---|
-| MSc Artificial Intelligence | University of Essex | 2025 – 2026 |
+| MSc Artificial Intelligence (Distinction) | University of Essex | 2025 – 2026 |
 | BSc Mechatronic Engineering | Atılım University | 2018 – 2025 |
 
 ---

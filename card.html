@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tuna Bozbay · AI Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE: confident, compact, a handshake in one screen
+   IDEA: an eye-tracking scanpath — the card is read the way a gaze reads it
+   PICTURE: fixations and saccades drawn across the header, landing on the name
+   COLOUR and TYPE: deep sea ground, sky and signal pink; Hanken Grotesk 300 large + 400/600
+   LAYOUT: one tall header strip, a strip of proof points, a strip of actions */
+:root{color-scheme:dark;--bg:#0a2540;--ink:#ffffff;--soft:#c9dcef;--sky:#8fd3ff;--pink:#ff5c8a;--line:rgba(143,211,255,.22);--card:rgba(255,255,255,.05)}
+*{box-sizing:border-box;min-width:0}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 "Hanken Grotesk",system-ui,-apple-system,Segoe UI,sans-serif;overflow-x:clip}
+.wrap{max-width:720px;margin:0 auto;padding:0 max(5vw,18px)}
+header{position:relative;padding:clamp(28px,6vw,56px) 0 28px;overflow:hidden}
+.fig{position:absolute;inset:0;pointer-events:none}
+.fig svg{width:100%;height:100%}
+.who{position:relative}
+.tag{color:var(--sky);font-weight:600;font-size:15px;margin:0 0 10px}
+h1{font-weight:300;font-size:clamp(44px,11vw,72px);line-height:1.02;margin:0;letter-spacing:-.01em;text-wrap:balance}
+.role{font-size:clamp(18px,4.4vw,22px);margin:14px 0 6px;font-weight:600}
+.sub{color:var(--soft);margin:0;max-width:60ch}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0;padding:0;list-style:none}
+.chips li{border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:14px;color:var(--soft)}
+.chips li.hot{border-color:var(--pink);color:#fff}
+section{padding:22px 0;border-top:1px solid var(--line)}
+h2{font-size:15px;font-weight:600;color:var(--sky);margin:0 0 12px}
+.work{display:grid;gap:12px}
+.w{position:relative;display:grid;grid-template-columns:auto 1fr;gap:4px 16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px 18px;overflow:hidden}
+.w::after{content:"";position:absolute;right:-30px;top:-30px;width:110px;height:110px;border-radius:50%;border:1px solid var(--line)}
+.w .n{grid-row:span 3;font-size:clamp(34px,9vw,44px);font-weight:300;line-height:1;color:var(--sky);white-space:nowrap;min-width:3.6ch}
+.w.hero{background:linear-gradient(135deg,rgba(255,92,138,.22),rgba(143,211,255,.08));border-color:rgba(255,92,138,.5)}
+.w.hero .n{color:var(--pink)}
+.w h3{margin:0;font-size:19px;line-height:1.25;font-weight:700}
+.w p{margin:0;color:var(--soft);font-size:15px;line-height:1.45}
+.w .t{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.w .t span{font-size:12.5px;padding:2px 9px;border-radius:999px;background:rgba(143,211,255,.12);color:var(--sky)}
+@media(max-width:420px){.w{grid-template-columns:1fr}.w .n{grid-row:auto;margin-bottom:6px}}
+.acts{display:grid;gap:10px}
+a.btn,button.btn{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:52px;padding:12px 16px;border-radius:14px;background:var(--card);border:1px solid var(--line);color:#fff;text-decoration:none;font-family:inherit;font-weight:600;font-size:16px;line-height:1.3;cursor:pointer;text-align:left}
+a.btn.main{background:var(--pink);border-color:var(--pink);color:#0a2540}
+a.btn small,button.btn small{font-weight:400;color:var(--soft);font-size:14px;overflow-wrap:anywhere;text-align:right}
+a.btn.main small{color:#0a2540}
+a.btn:focus-visible,button.btn:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.status{min-height:20px;font-size:14px;color:var(--sky);margin:8px 0 0}
+.open{display:grid;gap:6px;color:var(--soft);font-size:15px;margin:0;padding:0;list-style:none}
+.open li::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--pink);margin-right:10px;vertical-align:1px}
+@media(max-width:480px){a.btn,button.btn{flex-direction:column;align-items:flex-start;gap:2px}a.btn small,button.btn small{text-align:left}}
+footer{padding:20px 0 32px;color:var(--soft);font-size:13px;border-top:1px solid var(--line)}
+@media (prefers-reduced-motion:no-preference){
+  .sac{stroke-dasharray:var(--l);stroke-dashoffset:var(--l);animation:draw .5s ease-out forwards}
+  .fix{opacity:0;animation:pop .35s ease-out forwards}
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @keyframes pop{to{opacity:1}}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="fig" aria-hidden="true"><svg id="gaze" preserveAspectRatio="none"></svg></div>
+  <div class="wrap who">
+    <p class="tag">MSc Artificial Intelligence (Distinction) · University of Essex</p>
+    <h1>Tuna Bozbay</h1>
+    <p class="role">AI / ML Engineer · Agentic systems · Data pipelines</p>
+    <p class="sub">Mechatronics engineer who builds AI systems end to end and takes them into live use, from data ingestion to real-time inference.</p>
+    <ul class="chips">
+      <li class="hot">London, UK</li>
+      <li>No sponsorship required</li>
+      <li>2026 graduate</li>
+    </ul>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2>Things I've built</h2>
+    <div class="work">
+      <div class="w hero"><div class="n">263&#8239;ms</div>
+        <h3>An AI that reads focus from your eyes</h3>
+        <p>Infers cognitive workload from eye movements and runs live on a Tobii eye tracker. My MSc dissertation, graded Distinction.</p>
+        <div class="t"><span>Real-time ML</span><span>Python</span><span>scikit-learn</span></div></div>
+      <div class="w"><div class="n">140k+</div>
+        <h3>A robot that job-hunts for me</h3>
+        <p>Pulls UK listings from an API, checks visa sponsors across 140k+ records and scores my CV against each role with embeddings and an LLM.</p>
+        <div class="t"><span>ETL</span><span>LLMs</span><span>REST APIs</span></div></div>
+      <div class="w"><div class="n">76</div>
+        <h3>A data scientist that runs itself</h3>
+        <p>An autonomous agent that plans, runs and critiques its own ML experiments, and remembers what worked. 76 tests, 89% coverage.</p>
+        <div class="t"><span>Agentic AI</span><span>pytest</span></div></div>
+      <div class="w"><div class="n">6</div>
+        <h3>Emotion from face and voice</h3>
+        <p>Team study of six deep learning architectures with live webcam inference; my ResNet18–LSTM reached 77.6% validation accuracy.</p>
+        <div class="t"><span>Computer vision</span><span>PyTorch</span></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Get in touch</h2>
+    <div class="acts">
+      <a class="btn main" href="https://linkedin.com/in/tuna-bozbay-b00b86238">Connect on LinkedIn <small>linkedin.com/in/tuna-bozbay-b00b86238</small></a>
+      <a class="btn" href="https://github.com/tuna-b13">See my code on GitHub <small>github.com/tuna-b13</small></a>
+      <button class="btn" type="button" data-copy="tunabozbay2000@gmail.com">Email (tap to copy) <small>tunabozbay2000@gmail.com</small></button>
+    </div>
+    <p class="status" id="status" role="status" aria-live="polite"></p>
+  </section>
+
+  <section>
+    <h2>Open to</h2>
+    <ul class="open">
+      <li>Graduate and junior AI / ML engineering roles</li>
+      <li>Agentic and LLM application engineering</li>
+      <li>Data engineering and ML pipelines</li>
+      <li>Robotics and intelligent systems</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="wrap">CV available on request by email · BSc Mechatronics Engineering, Atilim University</footer>
+
+<script>
+{
+  const svg = document.getElementById('gaze');
+  // A scanpath: fixations (x%, y%, radius) joined by saccades.
+  const pts = [[88,10,14],[70,22,9],[83,40,20],[61,52,8],[92,64,12],[74,80,16],[95,92,7]];
+  const draw = () => {
+    const W = svg.clientWidth, H = svg.clientHeight;
+    if (!W || !H) return;
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+    const narrow = W < 600;
+    const P = pts.map(([x, y, r]) => [(narrow ? 80 + (x - 60) * 0.5 : x) / 100 * W, y / 100 * H, r * Math.min(1, W / 600) + 4]);
+    svg.style.opacity = narrow ? .55 : 1;
+    let out = '';
+    for (let i = 1; i < P.length; i++) {
+      const [a, b] = [P[i - 1], P[i]];
+      const l = Math.hypot(b[0] - a[0], b[1] - a[1]).toFixed(1);
+      out += `<line class="sac" style="--l:${l};animation-delay:${(i * .25).toFixed(2)}s" x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="#8fd3ff" stroke-opacity=".35" stroke-width="1.5"/>`;
+    }
+    P.forEach(([x, y, r], i) => {
+      const last = i === P.length - 1;
+      out += `<circle class="fix" style="animation-delay:${(i * .25).toFixed(2)}s" cx="${x}" cy="${y}" r="${r}" fill="${last ? '#ff5c8a' : '#8fd3ff'}" fill-opacity="${last ? .9 : .16}" stroke="${last ? '#ff5c8a' : '#8fd3ff'}" stroke-opacity=".6"/>`;
+    });
+    svg.innerHTML = out;
+  };
+  const ro = new ResizeObserver(draw);
+  ro.observe(svg);
+
+  const status = document.getElementById('status');
+  document.querySelectorAll('[data-copy]').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const text = btn.dataset.copy;
+      try {
+        await navigator.clipboard.writeText(text);
+        status.textContent = 'Copied: ' + text;
+      } catch (e) {
+        status.textContent = 'Copy not available here. ' + text;
+      }
+    });
+  });
+}
+</script>
+</body>
+</html>
